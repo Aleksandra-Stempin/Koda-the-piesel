@@ -1,0 +1,172 @@
+
+body {
+	background-color: 	#cc99ff;
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	box-sizing: border-box;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+header{
+	box-sizing: border-box;
+	width: 100%;
+	height: 130px;
+	background-color: #b366ff;
+}
+	.logo {
+		box-sizing: border-box;
+		float: left;;
+		margin-top: 5px;
+		margin-left: 0;
+	}
+	.menu {
+		box-sizing: border-box;
+		float: right;
+	}
+	ul {
+		list-style-type: none;
+		padding: 0px;
+		padding: 0px; 
+	}
+	ul li {
+		display: inline-block;
+	}
+	ul li a {
+		text-decoration: none;
+		color: #660066;
+		text-transform: uppercase;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		display: inline-block;
+		line-height: 80px;
+		padding: 0 10px;
+	}
+	ul li a:hover {
+		background-color: #cc99ff;
+		color: #9933ff;
+	}
+	.clear{
+		clear: both;
+	}
+.hero {
+	width: 100%;
+	height: 100vh;
+	background-image: url("galeria/pies.jpg");
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	text-align: center;
+}
+.hero-slogan{
+	margin: 20vh auto;
+	background: rgba(255, 255, 255, 0.5);
+	max-width: 600px;
+}
+.hero-main-text{
+	font-size: 55px;
+	margin: 0;
+	line-height: 20vh;
+	color:  #330033;
+	text-shadow: 4px 3px;
+}
+.hero-text{
+	font-size: 40px;
+	color: #660066;
+	padding: 20px;
+	margin: 0;
+}
+.hero-buttom{
+	font-size: 20px;
+	background-color: #666666;
+	color: black;
+	text-align: center;
+	border: none;
+	padding: 10px 25px;
+	margin: 10px auto;
+	cursor: pointer;
+}
+.hero-buttom:hover {
+	opacity: 0.7;
+	background-color: #262626
+	color: white;
+}
+.gallery{
+	text-align: center;
+	padding-bottom: 50px;
+	color:  #330033;
+}
+.gallery-main-text{
+	font-size: 40px;
+	margin: 0;
+	margin-top: 20px;
+}
+.gallery-text{
+	font-size: 30px;
+	margin: 0;	
+	margin-bottom: 30px;
+}	
+.gallery-image img{
+	object-fit: cover;
+	width: 25%;
+	float: left;
+	max-height: 250px
+}
+.gallery-image img:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.moja-biografia{
+	margin: 0;
+	padding: 0;
+	color: #660066;	
+}
+.moja-biografia h1{
+	padding-top: 20px;
+	text-align: center;
+}
+.moja-biografia p{
+	padding: 40px;
+	text-align: left;
+}
+.moja-biografia img{
+	padding: 10px;
+}
+.poziome{
+	height: 600px;
+	width: 800px;
+}
+.poziome:hover{
+	opacity: 0.8;
+	cursor: pointer;	
+}
+.pionowe img{
+	height: 80vh;
+}
+.pionowe img:hover{
+	opacity: 0.8;
+	cursor: pointer;	
+}
+.kontakt{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	color: #660066;
+	font-size: 20px;
+}
+.kontakt p{
+	padding-top: 30vh;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	background-color: #b366ff;
+}
+footer p{
+	margin: 0px;
+	padding: 20px;
+}
